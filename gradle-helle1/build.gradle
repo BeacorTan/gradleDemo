@@ -44,7 +44,8 @@ subprojects {
 
     repositories {
     	//依赖maven中央库
-        mavenCentral()
+        //mavenCentral()
+        jcenter()
         //maven { url 'http://maven.oschina.net/content/groups/public/' } 
     }
     
@@ -75,7 +76,7 @@ subprojects {
                 "org.springframework:spring-context:$springVersion",
                 "org.springframework:spring-orm:$springVersion",
                 "org.springframework:spring-tx:$springVersion",
-                "org.springframework:spring-jdbc:$springVersion",
+                //"org.springframework:spring-jdbc:$springVersion",
                 "org.springframework.data:spring-data-jpa:1.10.3.RELEASE",
                 "org.hibernate:hibernate-entitymanager:$hibernateVersion",
                 "c3p0:c3p0:0.9.1.2",
