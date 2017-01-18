@@ -53,6 +53,7 @@ subprojects {
     }
 
     repositories {
+    	//依赖maven中央库
         mavenCentral()
     }
 
