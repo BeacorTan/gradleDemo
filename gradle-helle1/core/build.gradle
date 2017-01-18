@@ -1,2 +1,5 @@
+apply plugin: 'java'
 // jar°üµÄÃû×Ö
 archivesBaseName = 'core'
+   
+
