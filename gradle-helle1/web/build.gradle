@@ -4,8 +4,9 @@ dependencies{
     // 依赖 core 模块
     compile project(":core")  
     compile(  
-            "org.springframework:spring-webmvc:$springVersion",  
-            "org.apache.taglibs:taglibs-standard-impl:1.2.1"  
+           // /**"org.springframework:spring-webmvc:$springVersion",  
+            //"org.springframework:spring-jdbc:$springVersion",
+            //"org.apache.taglibs:taglibs-standard-impl:1.2.1"  */
     )  	
     //系统提供的依赖
     providedCompile(  
